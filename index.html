@@ -3,41 +3,308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Kousar | Curriculum Vitae</title>
+    <title>Maria Kousar | CV & Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            max-width: 850px;
             margin: 40px auto;
             padding: 0 20px;
-            color: #333;
+            color: #2c3e50;
+            background-color: #f8f9fa;
         }
-        h1 { color: #2c3e50; margin-bottom: 5px; }
-        .subtitle { color: #7f8c8d; font-size: 1.1em; margin-top: 0; }
-        section { margin-bottom: 30px; }
-        h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        header {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            color: #1a252f;
+            font-size: 2.2em;
+        }
+        .subtitle {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin: 5px 0 15px 0;
+            font-weight: 500;
+        }
+        .contact-info {
+            font-size: 0.95em;
+        }
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1a252f;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 8px;
+            font-size: 1.3em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .item {
+            margin-bottom: 18px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .item-sub {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        @media (max-width: 600px) {
+            .skills-grid { grid-template-columns: 1fr; }
+            .item-header { flex-direction: column; }
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Maria Kousar</h1>
-        <p class="subtitle">Welcome to my personal CV & portfolio</p>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Maria Kousar</h1>
+            <p class="subtitle">Global Economics | Fiscal and Policy Research | Development Economics</p>
+            <div class="contact-info">
+                <strong>Email:</strong> maria.kousar98@gmail.com | 
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/maria-kousar-a268a6190" target="_blank">linkedin.com/in/maria-kousar-a268a6190</a>
+            </div>
+        </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>Write a brief summary about yourself, your background, and your goals here.</p>
-    </section>
+        <section>
+            <h2>Profile</h2>
+            <p>Detail-oriented economics graduate with a strong academic record and hands-on experience in fiscal and policy research. Proven track record of applying quantitative methods in Python, R, and Stata to analyze economic and development challenges. Strong analytical skills coupled with excellent leadership and communication abilities to organize conferences, lead student initiatives, and coordinate teams effectively.</p>
+        </section>
 
-    <section>
-        <h2>Education</h2>
-        <p><strong>Degree Name</strong> — University/Institution</p>
-    </section>
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>B.A. Global Economics — University of Central Asia</span>
+                    <span>Sep 2022 – Jun 2026</span>
+                </div>
+                <div class="item-sub">CGPA: 3.72/4.00 | Khorog, Tajikistan</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Preparatory Program — University of Central Asia</span>
+                    <span>Sep 2021 – May 2022</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>FSC Pre-Engineering — Aga Khan Higher Secondary School Gahkuch</span>
+                    <span>Apr 2019 – Aug 2021</span>
+                </div>
+                <div class="item-sub">Distinction in Mathematics AKUEB</div>
+            </div>
+        </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <strong>Quantitative & Statistical Analysis:</strong>
+                    <p>Econometric modeling, regression analysis, hypothesis testing, fiscal and budget analysis.</p>
+                </div>
+                <div>
+                    <strong>Programming & Data Analysis:</strong>
+                    <p>Python, R Programming, Stata, Microsoft Excel and Office Suite.</p>
+                </div>
+                <div>
+                    <strong>Policy & Economic Research:</strong>
+                    <p>Fiscal sustainability analysis, budget performance evaluation, development economics, household survey data analysis.</p>
+                </div>
+                <div>
+                    <strong>Research & Communication:</strong>
+                    <p>Report writing, grant proposal writing, academic research documentation, event and conference coordination.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Honours & Awards</h2>
+            <ul>
+                <li><strong>Diploma with Honours (Red Diploma):</strong> Tajik Government (2026)</li>
+                <li><strong>Outstanding Undergraduate in Global Economics:</strong> Gold Medal (2026)</li>
+                <li><strong>Outstanding Female Athlete Award:</strong> Silver Medal (2026)</li>
+                <li><strong>Cum Laude:</strong> CGPA 3.72/4.00 (2026)</li>
+                <li><strong>Dean's Honor List:</strong> University of Central Asia (2024–2026)</li>
+                <li><strong>WACE Global Challenge:</strong> Sustainable Impact (Dec 2024)</li>
+                <li><strong>Best Position Paper Award:</strong> Dushanbe Model United Nations Tajikistan (Nov 2022)</li>
+                <li><strong>Course Completion Certificates (CERGE-EI):</strong> Public Economics, Econometrics in a Nutshell, Health Economics, Climate Change Economics (2023)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Research Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>BA Thesis Research (Completed and Defended) — University of Central Asia</span>
+                    <span>Jun 2026</span>
+                </div>
+                <div class="item-sub">Women's Economic Empowerment and Agricultural Productivity: Evidence from Rural Tajikistan</div>
+                <ul>
+                    <li>Utilized IFPRI's 2025 rural household survey data to examine the relationship between women's economic empowerment and farm-level agricultural productivity.</li>
+                    <li>Constructed a women's economic empowerment index from survey indicators to quantify empowerment levels across rural households.</li>
+                    <li>Applied econometric methods in Stata to analyze the relationship between the empowerment index and agricultural productivity outcomes.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Internship Research — Economic Policy Review Department (EPRD), State Bank of Pakistan</span>
+                    <span>Jun 2025 – Aug 2025</span>
+                </div>
+                <ul>
+                    <li>Developed an analytical framework to assess Pakistan's FY2026 federal budget using fiscal data from 2017–2025.</li>
+                    <li>Evaluated revenue trends, expenditure composition, and deficit sustainability across a 10-year horizon.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>Teaching Assistant — University of Central Asia</span>
+                    <span>Sep 2025 – May 2026</span>
+                </div>
+                <div class="item-sub">Marketing, International Trade & International Finance | Khorog, Tajikistan</div>
+                <ul>
+                    <li>Conducted weekly tutorials, reinforcing key concepts for students.</li>
+                    <li>Managed and updated course content on Moodle, ensuring timely access to materials and assignments.</li>
+                    <li>Assisted in preparing and grading quizzes and exams, providing consistent and accurate feedback.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Intern — Economic Policy Review Department, State Bank of Pakistan</span>
+                    <span>Jun 2025 – Aug 2025</span>
+                </div>
+                <div class="item-sub">Karachi, Pakistan</div>
+                <ul>
+                    <li>Researched Pakistan's federal budget (FY2026) to assess fiscal sustainability using data spanning 2017–2026.</li>
+                    <li>Developed an analytical framework to evaluate budget performance across revenue, expenditure, and deficit trends.</li>
+                    <li>Drafted a final report on the FY2026 budget and defended the presentation to EPRD.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Student Life Intern — University of Central Asia</span>
+                    <span>Feb 2024 – May 2024</span>
+                </div>
+                <div class="item-sub">Khorog, Tajikistan</div>
+                <ul>
+                    <li>Designed academic and non-academic programs, planned events, and coordinated with higher management.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Family Faculty Intern — University of Central Asia</span>
+                    <span>Nov 2022 – May 2023</span>
+                </div>
+                <div class="item-sub">Khorog, Tajikistan</div>
+                <ul>
+                    <li>Developed SAT-based curriculum and led workshops to strengthen students' confidence and academic readiness.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Development Grants Writer — Juraat NGO</span>
+                    <span>Jun 2022 – Aug 2022</span>
+                </div>
+                <div class="item-sub">Dushanbe, Tajikistan</div>
+                <ul>
+                    <li>Secured funding for educational initiatives through competitive grant proposals.</li>
+                    <li>Researched funding opportunities aligned with community development and educational priorities.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Leadership & Service</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>Secretary General — UCA Model United Nations</span>
+                    <span>Sep 2023 – Jun 2026</span>
+                </div>
+                <ul>
+                    <li>Led operations for UCA's MUN society, training over 200 delegates and securing more than $10,000 USD in funding.</li>
+                    <li>Collaborated with Tennessee State University, Nazarbayev University, NUST Pakistan, and UNHCR Dushanbe.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Lead of OEC Talks — Organization for Educational Change</span>
+                    <span>Jul 2024 – Jun 2025</span>
+                </div>
+                <ul>
+                    <li>Led a team of 150+ volunteers to plan and run youth-focused talk initiatives in Gilgit, Pakistan.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Secretary of Student Association — University of Central Asia</span>
+                    <span>Sep 2023 – Aug 2024</span>
+                </div>
+                <ul>
+                    <li>Organized meetings, prepared reports, and planned student engagement activities.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>Curator — UCA Stories & TEDxUCA</span>
+                    <span>Oct 2022 & Apr 2024</span>
+                </div>
+                <ul>
+                    <li>Held weekly coaching sessions with speakers to structure clear and engaging speeches.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research Interests</h2>
+            <p>Development economics, Public policy and fiscal analysis, Gender and economic empowerment, Agricultural productivity and rural development, Climate-resilient development policy.</p>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <p><strong>Urdu:</strong> Native | <strong>English:</strong> Professional | <strong>Shina & Khowar:</strong> Mother Tongue | <strong>Tajik/Shughni:</strong> Basic</p>
+        </section>
+
+        <section>
+            <h2>References</h2>
+            <p><strong>Dr. Anwar Naseem</strong> — Research Lead & Associate Professor, UCA (anwar.naseem@ucentralasia.org)</p>
+            <p><strong>Dr. Mirzobobo Yormirzoev</strong> — Associate Professor & Programme Director Global Economics, UCA (mirzobobo.yormirzoev@ucentralasia.org)</p>
+        </section>
+    </div>
 </body>
 </html>
